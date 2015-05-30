@@ -1,0 +1,7 @@
+{
+  "name": "SD",
+  "author": "Carl Puley <c.pulley@acme-labs.org.uk>",
+  "license": "BSD",
+  "version": "0.0.1",
+  "description": "Port of Arduino/Sparkfun SD Card Library for the Spark Core"
+}
