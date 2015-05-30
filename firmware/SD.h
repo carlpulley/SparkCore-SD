@@ -11,9 +11,7 @@
  (C) Copyright 2010 SparkFun Electronics
 
  */
-#ifndef __SD_H__
-#define __SD_H__
-
+ 
 #include "application.h"
 #include "SdFat.h"
 #include "SdFatUtil.h"
@@ -99,5 +97,3 @@ private:
 };
 
 extern SDClass SD;
-
-#endif
