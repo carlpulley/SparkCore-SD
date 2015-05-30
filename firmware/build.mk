@@ -4,11 +4,11 @@
 # Define the prefix to this directory. 
 # Note: The name must be unique within this build and should be
 #       based on the root of the project
-TARGET_SD_PATH = libraries/SD
-TARGET_SD_SRC_PATH = $(TARGET_SD_PATH)/src
+TARGET_SD_PATH = .
+TARGET_SD_SRC_PATH = $(TARGET_SD_PATH)
 
 # Add include paths.
-INCLUDE_DIRS += $(TARGET_SD_PATH)/inc
+INCLUDE_DIRS += $(TARGET_SD_PATH)
 
 # C source files included in this build.
 CSRC +=
